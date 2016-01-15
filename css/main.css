@@ -84,14 +84,14 @@ z-index: 1000;
 .time-lapsed {
   font-size: .7rem;
   position: absolute;
-  top:25px;
+  top: 25px;
   left: 60px;
 }
 
 .time-total {
   font-size: .7rem;
   position: absolute;
-  top:25px;
+  top: 25px;
   right: 2px;
 }
 
@@ -112,12 +112,12 @@ z-index: 1000;
 
 .control-list {
   position: absolute;
-  top:0;
+  top: 0;
   right: 0;
 }
 
 .control-heart {
   position: absolute;
-  top:0;
+  top: 0;
   right: 30px;
 }
