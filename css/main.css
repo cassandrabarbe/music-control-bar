@@ -28,6 +28,8 @@ body {
   background-image: linear-gradient(to bottom, #e2e2e2, #ccc);
   text-align: center;
   color: #333;
+  width: 100%;
+  position: relative;
 }
 
 .song {
@@ -43,10 +45,15 @@ body {
 }
 
 .album {
-
+position: absolute;
+left: 0;
+top: 0;
+max-height: 100%;
+z-index: 1000;
 }
 
 .time {
+
 
 }
 
@@ -58,6 +65,11 @@ body {
   -moz-appearance: none;
   border: 0;
   background-color: #aaa;
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+
 }
 
 /*
@@ -77,10 +89,16 @@ body {
 
 .time-lapsed {
   font-size: .7rem;
+  position: absolute;
+  top:25px;
+  left: 60px;
 }
 
 .time-total {
   font-size: .7rem;
+  position: absolute;
+  top:25px;
+  right: 2px;
 }
 
 .controls {
@@ -93,13 +111,20 @@ body {
 }
 
 .control-shuffle {
-
+  position: absolute;
+  top: 0;
+  left: 60px;
 }
 
 .control-list {
+  position: absolute;
+  top:0;
+  right: 0;
 
 }
 
 .control-heart {
-
+  position: absolute;
+  top:0;
+  right: 30px;
 }
