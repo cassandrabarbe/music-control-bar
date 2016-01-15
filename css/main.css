@@ -103,9 +103,9 @@ z-index: 1000;
 
 .controls {
   margin: 0;
-  padding: 0;
+  padding: 0.2em;
   color: #666;
-  font-size: 1.8rem;
+  font-size: 1rem;
   line-height: 16px;
   list-style-type: none;
 }
