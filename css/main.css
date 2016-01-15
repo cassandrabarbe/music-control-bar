@@ -52,11 +52,6 @@ max-height: 100%;
 z-index: 1000;
 }
 
-.time {
-
-
-}
-
 .time-bar {
   height: 8px;
   margin: 0;
@@ -69,7 +64,6 @@ z-index: 1000;
   position: absolute;
   bottom: 0;
   right: 0;
-
 }
 
 /*
@@ -120,7 +114,6 @@ z-index: 1000;
   position: absolute;
   top:0;
   right: 0;
-
 }
 
 .control-heart {
